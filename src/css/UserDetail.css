@@ -1,0 +1,78 @@
+/* User Detail Page - Vintage Look */
+.user-detail-page {
+    background-color: #f7f3e9; /* Light beige background */
+    padding: 40px 20px;
+    font-family: 'Merriweather', serif; /* Vintage serif font */
+    color: #704214; /* Dark brown text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 83vh; /* Full viewport height */
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* User Detail Card */
+  .user-detail-card {
+    background-color: #ffffff; /* White background for contrast */
+    border: 3px solid #b48c77; /* Decorative border */
+    border-radius: 12px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Vintage shadow */
+    padding: 20px;
+    max-width: 500px;
+    text-align: center;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  /* User Detail Image */
+  .user-detail-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 12px;
+    border: 3px solid #b48c77;
+    margin-bottom: 20px;
+  }
+  
+  /* User Name */
+  .user-detail-name {
+    font-size: 2rem;
+    color: #704214;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  /* User Role */
+  .user-detail-role {
+    font-size: 1.5rem;
+    color: #b48c77;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  
+  /* User Bio */
+  .user-detail-bio {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #704214;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

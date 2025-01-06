@@ -1,0 +1,47 @@
+
+body {
+    background-color: #f7f3e9;
+}
+  /* Footer Styling */
+  footer {
+    position: fixed;
+    background-color: #a87f55;
+    color: #ccc;
+    padding: 1rem;
+    width: 100%;
+  }
+  .content {
+    min-height: 80vh;
+  }
+
+  /* CustomVintageNavbar.css */
+.vintage-navbar {
+    background-color: #f7f3e9; /* Light beige for a vintage paper-like background */
+    border-bottom: 2px solid #b48c77; /* Subtle decorative border */
+    font-family: 'Georgia', serif; /* Serif font for a classic look */
+  }
+  
+  .vintage-navbar .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #704214; /* Dark brown for vintage text color */
+  }
+  
+  .vintage-navbar .nav-link {
+    font-size: 1.2rem;
+    color: #704214;
+    margin-right: 15px;
+  }
+  
+  .vintage-navbar .nav-link:hover {
+    color: #b48c77; /* Muted gold for hover effect */
+  }
+  
+  .vintage-navbar .navbar-toggler {
+    background-color: #704214; /* Dark toggler button */
+    border: none;
+  }
+  
+  
+  
+  

@@ -1,0 +1,81 @@
+/* Users Page - Vintage Look */
+.users-page {
+    background-color: #f7f3e9; /* Light beige background */
+    padding: 30px 20px;
+    font-family: 'Merriweather', serif; /* Vintage serif font */
+    color: #704214; /* Dark brown text color */
+  }
+  
+  /* Page Title */
+  .page-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #b48c77; /* Muted gold for the title */
+    border-bottom: 2px solid #b48c77;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  /* Page Description */
+  .page-description {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #704214;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Users List Container */
+  .users-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* User Card */
+  .user-card {
+    background-color: #ffffff; /* White background for contrast */
+    border: 2px solid #b48c77;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Card Hover Effect */
+  .user-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* User Name */
+  .user-name {
+    font-size: 1.5rem;
+    color: #704214;
+    margin-bottom: 10px;
+  }
+  
+  /* User Role */
+  .user-role {
+    font-size: 1rem;
+    color: #b48c77;
+    font-style: italic;
+  }
+  
+  
+  .user-card .btn {
+    font-family: 'Georgia', serif;
+    background-color: #b48c77;
+    color: #fff;
+    border: none;
+  }
+  
+  .user-card  .btn:hover {
+    background-color: #704214;
+  }
