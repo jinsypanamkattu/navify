@@ -1,7 +1,7 @@
 // Home Page
 export const Home = () => (
     <div className="container mt-4">
-        <div class="content">
+        <div className="content">
       
       <div className="home-page">
       {/* Navigation Section */}
